@@ -145,6 +145,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\StudentPage.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -153,6 +154,16 @@
     <Content Include="HTML\HtmlPageNaledi.html" />
     <Content Include="HTML\HtmlPageNyiko.html" />
     <Content Include="HTML\HtmlPageThato.html" />
+    <Content Include="HTML\Images\Bed Icon.png" />
+    <Content Include="HTML\Images\Game Icon.png" />
+    <Content Include="HTML\Images\Michael Icon.png" />
+    <Content Include="HTML\Images\Busi Icon.png" />
+    <Content Include="HTML\Images\Party Icon.jpg" />
+    <Content Include="HTML\Images\Thato.png" />
+    <Content Include="HTML\Images\Naledi.png" />
+    <Content Include="HTML\Images\Nyiko Icon.png" />
+    <Content Include="HTML\Images\Skateboard Icon.jpg" />
+    <Content Include="HTML\Images\Target Icon.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -188,7 +199,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="HTML\Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

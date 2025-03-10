@@ -6,19 +6,109 @@
     <link href="../Content/StudentPage.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <ul class="navbar-links">
-                <li><a href="/Views/Home/Index.cshtml">Main</a></li>
-                <li><a href="/Views/Student/ListStudents.cshtml">List</a></li>
-                <li><a href="HtmlPageNyiko.html" class="active-link">Nyiko Mbhalati</a></li>
-                <li><a href="HtmlPageMichael.html">Michael Neto</a></li>
-                <li><a href="HtmlPageBusi.html">Busi Paul</a></li>
-                <li><a href="HtmlPageNaledi.html">Naledi Nkwana</a></li>
-                <li><a href="HtmlPageThato.html">Thato Modise</a></li>
-                <li><a href="#" >Back</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <ul class="navbar-links">
+            <li><a href="/Home/Index">Main</a></li>
+            <li><a href="/Student/ListStudents">List</a></li>
+            <li><a href="HtmlPageNyiko.html" class="active-link">Nyiko Mbhalati</a></li>
+            <li><a href="HtmlPageMichael.html">Michael Neto</a></li>
+            <li><a href="HtmlPageBusi.html">Busi Paul</a></li>
+            <li><a href="HtmlPageNaledi.html">Naledi Nkwana</a></li>
+            <li><a href="HtmlPageThato.html">Thato Modise</a></li>
+            <li><a id="back-btn" href="#" onclick="history.back(); return false;">Back</a></li>
+        </ul>
+    </nav>
+
+    <div style="margin-left: 100px;">
+        <h2>Nyiko Mbhalati</h2>
+    </div>
+
+    <div class="container-bio">
+
+        <div class="container-bio-image-flipper">
+            <img src="../HTML/Images/Nyiko Icon.png" class="container-bio-image" />
+        </div>
+
+        <div class="container-bio-text">
+
+            <h3 class="container-bio-text-heading">Biography and Background</h3>
+            
+            <p class="container-bio-text-p">
+                Nyiko's from Limpopo. He grew up in a town called Tzaneen. He studies (BIS)Information Science. He studies that degree in particular
+                because it teaches content in line with his interests.
+            </p>
+            
+        </div>
+    </div>
+
+    <div class="container-hobbies">
+        <div class="container-hobbies-text">
+
+            <h3 class="container-hobbies-text-heading">Hobbies</h3>
+            
+            <p class="container-hobbies-text-p">
+                He recently found a thrill for skateboarding and recently started learning how to skate. He playing video games on his old consoles.
+                And on occasion enjoys watching paint dry.
+            </p>
+            
+        </div>
+        <div class="container-bio-image-flipper">
+            <img src="../HTML/Images/Skateboard Icon.jpg" class="container-hobbies-image" />
+        </div>
+    </div>
+
+    <div class="container-module">
+        <div class="contianer-module-text">
+            <h3 class="container-module-text-heading">Modules</h3>
+        </div>
+        
+        <div class="container-module-table">
+            <table>
+                <tr>
+                    <th>
+                        Modules Semester 1
+                    </th>
+                    <th>
+                        Modules Semester 2
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Information Science 120
+                    </td>
+                    <td>
+                        Information Science 220
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Information Science 210
+                    </td>
+                    <td>
+                        Publishing 220
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Business Management 210
+                    </td>
+                    <td>
+                        Informatics 261
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Informatics 214
+                    </td>
+                    <td>
+                        Informatics 225
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+
+    </div>
+
 </body>
 </html>
